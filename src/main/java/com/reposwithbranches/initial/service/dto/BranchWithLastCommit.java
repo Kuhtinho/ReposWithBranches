@@ -1,4 +1,4 @@
-package com.reposwithbranches.initial.service.dto.branch;
+package com.reposwithbranches.initial.service.dto;
 
 import lombok.Builder;
 

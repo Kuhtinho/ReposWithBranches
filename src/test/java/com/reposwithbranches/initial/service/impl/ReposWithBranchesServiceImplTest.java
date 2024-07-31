@@ -1,12 +1,12 @@
 package com.reposwithbranches.initial.service.impl;
 
-import com.reposwithbranches.initial.service.GitHubApiService;
+import com.reposwithbranches.initial.client.GitHubApiClient;
 import com.reposwithbranches.initial.service.dto.RepoWithBranches;
-import com.reposwithbranches.initial.service.dto.branch.Branch;
-import com.reposwithbranches.initial.service.dto.branch.BranchWithLastCommit;
-import com.reposwithbranches.initial.service.dto.branch.Commit;
-import com.reposwithbranches.initial.service.dto.repository.Owner;
-import com.reposwithbranches.initial.service.dto.repository.Repository;
+import com.reposwithbranches.initial.client.model.branch.Branch;
+import com.reposwithbranches.initial.service.dto.BranchWithLastCommit;
+import com.reposwithbranches.initial.client.model.branch.Commit;
+import com.reposwithbranches.initial.client.model.repository.Owner;
+import com.reposwithbranches.initial.client.model.repository.Repository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -40,7 +40,7 @@ public class ReposWithBranchesServiceImplTest {
     );
 
     @Mock
-    private GitHubApiService gitHubApiService;
+    private GitHubApiClient gitHubApiClient;
 
     @InjectMocks
     private ReposWithBranchesServiceImpl reposWithBranchesService;
@@ -59,8 +59,8 @@ public class ReposWithBranchesServiceImplTest {
                         )
                         .build());
 
-        when(gitHubApiService.getRepos(anyString())).thenReturn(REPOSITORIES);
-        when(gitHubApiService.getBranches(anyString())).thenReturn(BRANCHES);
+        when(gitHubApiClient.getRepos(anyString())).thenReturn(REPOSITORIES);
+        when(gitHubApiClient.getBranches(anyString())).thenReturn(BRANCHES);
 
         List<RepoWithBranches> actual = reposWithBranchesService.getReposWithBranches(USER_NAME);
 

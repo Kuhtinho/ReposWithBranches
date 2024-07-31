@@ -1,4 +1,4 @@
-package com.reposwithbranches.initial.service.dto.repository;
+package com.reposwithbranches.initial.client.model.repository;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;

@@ -1,6 +1,5 @@
 package com.reposwithbranches.initial.service.dto;
 
-import com.reposwithbranches.initial.service.dto.branch.BranchWithLastCommit;
 import lombok.Builder;
 
 import java.util.List;
