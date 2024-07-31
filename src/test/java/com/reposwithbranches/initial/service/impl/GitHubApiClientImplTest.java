@@ -1,4 +1,4 @@
-package com.reposwithbranches.initial.client.impl;
+package com.reposwithbranches.initial.service.impl;
 
 import com.reposwithbranches.initial.client.impl.GitHubApiClientImpl;
 import com.reposwithbranches.initial.exception.NotFoundException;
