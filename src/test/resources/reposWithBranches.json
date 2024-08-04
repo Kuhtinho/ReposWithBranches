@@ -1,0 +1,100 @@
+[
+  {
+    "repositoryName": "CoPiesSzczeka",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "main",
+        "lastCommitSha": "e457ebefdeb92badbae4dcb3d6ecceb4e64e6c89"
+      }
+    ]
+  },
+  {
+    "repositoryName": "JavaOffers",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "main",
+        "lastCommitSha": "c28eea2b7d2d5644608bc2ee7748e11fd9208cc2"
+      }
+    ]
+  },
+  {
+    "repositoryName": "mediamarkt",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "master",
+        "lastCommitSha": "aeee50473ca8c5debad5726292be1513cc4f05e6"
+      }
+    ]
+  },
+  {
+    "repositoryName": "Music-Recommendation-System",
+    "ownerLogin": "Kuhtinho",
+    "branches": []
+  },
+  {
+    "repositoryName": "MusicRecommendationSystem",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "master",
+        "lastCommitSha": "1f2bcfa7d3766dec61d1716086f813ce082883c7"
+      }
+    ]
+  },
+  {
+    "repositoryName": "PetSitters",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "controllers_models_repositories",
+        "lastCommitSha": "33e5b25c4e8a8adbbe40e7aac92f60f3147578d2"
+      },
+      {
+        "name": "map-struct-refactor",
+        "lastCommitSha": "fdf167129615e5f901c680940f602c1e6b694a85"
+      },
+      {
+        "name": "master",
+        "lastCommitSha": "c3a4ee6bc355d3526e0fc38ed302e493c6baba90"
+      }
+    ]
+  },
+  {
+    "repositoryName": "project_msi_festivals",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "master",
+        "lastCommitSha": "66a6d75e4cddcc1fdee5f732fcb7d8d1f39e4a82"
+      }
+    ]
+  },
+  {
+    "repositoryName": "RealEstateFinder",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "main",
+        "lastCommitSha": "9c8df43676388e5a461eaa0579d69e1164caa22d"
+      }
+    ]
+  },
+  {
+    "repositoryName": "ReposWithBranches",
+    "ownerLogin": "Kuhtinho",
+    "branches": [
+      {
+        "name": "main",
+        "lastCommitSha": "1d69f35083db7275ed3e3aaa0d51b504ba0e43be"
+      }
+    ]
+  },
+  {
+    "repositoryName": "sas",
+    "ownerLogin": "Kuhtinho",
+    "branches": []
+  }
+]
